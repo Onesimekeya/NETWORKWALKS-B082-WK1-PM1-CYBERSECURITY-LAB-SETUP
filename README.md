@@ -22,7 +22,6 @@ Linked all deployed virtual machines to a unified, internal network configuratio
 Assigned specific, static IP addresses to the machines to establish a controlled network topology within the 10.0.0.0/24 subnet.
 
 * **Kali Linux Node:** `10.0.0.2/24`
-* **Windows Node:** `10.0.0.10/24`
 
 ![Kali Linux IP Configuration](IP_configuratio_Kalilinux.png)  
 
