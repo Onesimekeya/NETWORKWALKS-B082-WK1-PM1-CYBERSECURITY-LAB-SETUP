@@ -9,13 +9,13 @@ The primary objective for the first week was to establish a secure, interconnect
 ### 1. Virtual Machine Provisioning
 Deployed the core operating systems required for the lab, specifically setting up Kali Linux alongside Windows environments (Win10 and Win11) to act as testing targets.
 
-> ![VirtualBox Dashboard](Kalilinux_install.png)  
+![VirtualBox Dashboard](Kalilinux_install.png)  
 
 
 ### 2. Network Architecture Setup
 Linked all deployed virtual machines to a unified, internal network configuration by utilizing VirtualBox's NAT Network feature. This ensures isolation while allowing inter-VM communication.
 
-> ![NAT Network Settings](Virtualbox_NAT.png)  
+![NAT Network Settings](Virtualbox_NAT.png)  
 > *[Insert NAT Network settings screenshot here]*
 
 ### 3. IP Addressing Configuration
@@ -24,18 +24,18 @@ Assigned specific, static IP addresses to the machines to establish a controlled
 * **Kali Linux Node:** `10.0.0.2/24`
 * **Windows Node:** `10.0.0.10/24`
 
-> ![Kali Linux IP Configuration](IP_configuratio_Kalilinux.png)  
+![Kali Linux IP Configuration](IP_configuratio_Kalilinux.png)  
 > *[Insert Kali Linux IP configuration screenshot here]*
 
 ### 4. Connectivity Verification
 Validated the network setup by executing ICMP echo requests (ping) to ensure successful bidirectional communication between the attacker (Kali) and target (Windows) machines.
 
 * **Testing from Windows to Kali:**
-  > ![Windows Ping](Network_verification_Windows.png)  
+![Windows Ping](Network_verification_Windows.png)  
   > *[Insert Windows ping screenshot here]*
 
 * **Testing from Kali to Windows:**
-  > ![Kali Ping](Network_verification_Kalilinux.png)  
+![Kali Ping](Network_verification_Kalilinux.png)  
 
 ---
 
